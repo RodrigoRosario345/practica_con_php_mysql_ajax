@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    background: linear-gradient(90deg, rgb(11, 109, 1) 0%, rgb(47, 233, 84) 100%);
+    height: 100vh;
+    max-width: 100%;
+    padding-top: 50px;
+    padding-left: 400px;
+
+}
+
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.titulo{
+    font-size: 40px;
+    color: rgb(244, 132, 63);
+    padding: 10px;
+    text-align: center;
+}
+.articulos{
+    padding: 10px;
+}
+
+.hijo{
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding-bottom: 10px;
+    width: auto;
+}
+
+.mini-padre{
+
+    display: flex;
+}
+
+.mini-padre li{
+    background-color: rgb(32, 22, 22);
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 18px;
+    margin: 10px;
+    
+}
+
+.mini-padre li:first-child{
+    background-color: rgb(189, 193, 193);
+}
+
+.mini-padre li:last-child{
+    background-color: rgb(189, 193, 193);
+}
+
+
+.mini-padre li:hover{
+    background-color: rgb(1, 90, 255);
+    color: rgb(40, 40, 40);
+}
+
+.mini-padre .dentro{
+    background-color: rgb(255, 0, 0);
+    color: rgb(40, 40, 40);
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: #000;
+    opacity: 0.6;
+
+}
