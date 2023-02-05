@@ -1,0 +1,230 @@
+@font-face {
+    font-family: fuenteMundialQatar2022;
+    src: url("../fonts/Qatar2022Arabic-Bold.ttf");
+}
+
+body {
+    background: linear-gradient(90deg, rgb(109, 1, 1) 10%, rgb(233, 47, 47) 80%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fuenteMundialQatar2022;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 5px;
+}
+
+.titulo{
+    font-size: 30px;
+    margin: auto;
+    color: #fff;
+    
+}
+
+.subir{
+    margin-right: 10px;
+    
+}
+
+
+.contenedor {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+img {
+    object-fit: cover;
+    height: 100%; 
+    width: 100%; 
+}
+
+
+
+
+.item {
+    height: 240px;
+    width: 190px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);  
+
+}
+
+
+
+.item:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 4px solid#fff;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.izquierda{
+    margin-left: 80px;
+    margin-right: auto;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.izquierda:hover {
+    border: 1px solid#fff;
+    border-radius: 20px;
+}
+
+.derecha{
+    margin-right: 80px;
+    margin-left: auto;
+    border: 1px solid#000;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+
+.derecha:hover {
+    border: 1px solid#fff;
+    border-radius: 20px;
+}
+
+.regresar{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-self: flex-end;
+    padding: 10px;
+    border: 1px solid#000;
+    border-radius: 20px;
+}
+
+.regresar:hover {
+    border: 1px solid#fff;
+    border-radius: 20px;
+}
+
+.regresar2{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-self: center;
+    padding: 10px;
+    border: 1px solid#000;
+    border-radius: 20px;
+}
+
+.regresar2:hover {
+    border: 1px solid#fff;
+    border-radius: 20px;
+}
+
+i { 
+    padding-right: 8px;
+}
+
+
+.piePagina{
+    margin: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.contenedorP{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    margin: auto;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.contenedorFoto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.enviar {
+    padding: 10px;
+    border: 1px solid#000;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.medio {
+    display: flex;
+    margin-left: 790px;
+}
+
+#titulo {
+    background-color: transparent;
+    outline: none;
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solidr rgb(85, 85, 85);
+}
+
+#texto {
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    height: 100px;
+    width: 500px;
+}
+
+
+/* img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 8px 8px 8px rgb(255, 255, 255);
+} */
+
+/*rotar izquierda derecha imagen*/
+/* im:hover {
+    content: url(../fotos/Uruguay.jpg);
+    transform: rotate3d(0, 1, 0, 180deg);
+    transition: 0.5s;
+    box-shadow: 8px 8px 8px rgb(255, 255, 255);
+} */
+/* 
+@keyframes animacion {
+    from {
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+    to {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+} */

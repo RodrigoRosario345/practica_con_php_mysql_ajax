@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* min-height: 100vh;minimo de alto de la pagina para que se posciones toda la pagina el body y no al contenido */
+}
+
+
+
+.contenedor {
+    width: 100%;
+    height:70px;
+    padding-top: 12px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+
+.buscarC{
+    padding: 4px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.buscar{
+    box-sizing: border-box;
+    width: 120px;
+    padding: 5px;   
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.buscar::placeholder{
+    color: #fff
+}
+
+.buscar::-moz-placeholder{
+    color: #fff
+}
+
+.icono{
+    padding-right: 6px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+.izquierda{
+    margin-left: 300px;
+
+}
+
+.izquierda p a {
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+
+
+li {
+    padding: 15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.derecha{
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a{
+    color:rgb(255, 255, 255)
+}
+
+ul:nth-child(1) {
+    margin-left: 10px;
+}
+
+.fa-brands, .icono, .fa-solid {
+    color:rgb(255, 255, 255)
+}
+.titulo a{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.titulo a:hover{
+    text-decoration-line: underline;
+}
+
+.fecha {
+    color:rgb(147, 126, 126)
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}
+.extracto{
+    padding-bottom: 10px;
+}
+
+.continuar{
+    color: red
+}
+
+.post{
+    padding: 30px;
+    border: 1px solid rgb(147, 126, 126);
+    box-shadow: 0 0 10px rgb(147, 126, 126);
+    margin-bottom: 10px;
+    margin-left: 400px;
+    width: 800px;
+    height: fit-content;
+}
+
+
+.container{
+    padding: 10px;
+
+}
+
+.mini-padre{
+
+    display: flex;
+    justify-content: center;
+    padding-left: 400px;
+    padding-bottom: 85px;
+}
+
+.mini-padre li{
+    background-color: rgb(87, 41, 41);
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(180, 180, 180);
+    margin: 10px;
+    text-align: center;
+
+    
+}
+
+.mini-padre li a{
+    
+    color: #fff;
+}
+
+/* .mini-padre li:first-child{
+    background-color: rgb(189, 193, 193);
+}
+
+.mini-padre li:last-child{
+    background-color: rgb(189, 193, 193);
+} */
+
+
+.mini-padre li:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.mini-padre .dentro{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+
+}
+
+footer{
+    margin-top: 80px;
+}
+
+
+.contenedorFooter{
+    background-color: red;
+    width: 100%;
+    padding: 10px;
+    position:fixed;/*para que se poscione en la parte inferior de la pagina*/
+    left:0px;
+    bottom:0px;
+    text-align: center;
+}
+
+.copy{
+    font-size: 18px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 400px;
+    color: #fff;
+}
+
+.post{
+    margin-top: 30px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(100, 63, 63);
+    border-radius: 4px;
+    outline: none;
+}
+
+.formulario input:last-child{
+    width: fit-content;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.tituloLogin{
+    text-align: center  ;
+    color: red;
+}
+
+.tituloBusqueda{
+    margin-right: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.icono1{
+    padding-left: 10px;
+    color: green;
+}
+
+.icono2{
+    padding-left: 10px;
+    color: rgb(0, 128, 255);
+}
+
+.icono3{
+    padding-left: 10px;
+    color: rgb(255, 0, 0);
+}
+
+.tituloAdmin{
+    padding: 10px;
+}
+
+.tituloPrincipal{
+    margin-left: 400px;
+    color: red;
+}
+
+.post a:hover{
+
+    text-decoration-line: underline;
+}
+
+.color1{
+    color: green;
+}
+
+.color2{
+    color: rgb(0, 128, 255);
+}
+
+.color3{
+    color: rgb(255, 0, 0);
+}
+
+.botones{
+    margin-left: 400px;
+}
+
+.btn{
+    
+    padding: 10px;
+    background-color: rgb(139, 99, 99);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+
+.btn:last-child:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(100, 63, 63);
+    border-radius: 4px;
+    outline: none;
+}
